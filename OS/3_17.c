@@ -18,6 +18,7 @@ pid_t pid;
 	}
 	else if (pid > 0)
 	{
+		// No waiting
 		printf("PARENT pid: %d\n", getpid());
 		sleep(10);
 	}
